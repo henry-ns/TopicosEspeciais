@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.edu.ifpb.splash2.PrimeiraActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configurações"
+        android:id="@+id/btConf"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"
+        android:onClick="onClickConf" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mapa"
+        android:id="@+id/btMapa"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickMapa" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tocar música"
+        android:id="@+id/btMusic"
+        android:onClick="onClickMusic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        android:id="@+id/btSMS"
+        android:layout_below="@+id/txtDigite"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickSMS" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarme"
+        android:id="@+id/btAlarme"
+        android:onClick="onClickAlarme" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Busca direta na WEB"
+        android:id="@+id/btBusca"
+        android:layout_below="@+id/txtDigite"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickBusca" />
+
+</LinearLayout>
